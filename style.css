@@ -1,0 +1,34 @@
+body {
+    background-color: salmon;
+    color: #ffffff;
+}
+
+h2 {
+    background-color: #0000FF;
+
+    padding: 3em 0em 5em 1em; 
+    margin : 5em;
+}
+
+img {
+    width: 30%;
+}
+
+#thisParticularLi {
+    text-decoration: underline;
+}
+
+#container {
+    background-color: green;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: solid 3px white;
+}
