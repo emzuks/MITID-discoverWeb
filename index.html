@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    
-    
+
+    <!-- loading the AdafruitI0 library-->
+    <script src="https://cdn.jsdelivr.net/gh/methio/adafruitIO-class@latest/index.js"></script>
     <!-- load the script file-->
     <script src="script.js" defer></script>
 
@@ -29,16 +30,26 @@
     <button id="button-color">Get the color</button>
 
     <!-- change the temperature value-->
-     
-
     </div>
 
    
 <div>
  <p>My temperature is<span id="temperature-display">20</span> °C.</p>
     <button id="button-temperature">Set current temperature</button>
-
 </div>
+
+<!--Shopping list-->
+<label for="input-list">Add a shopping item</label>
+<input
+    id="input-list"
+    type="text"
+    size="10"
+    >
+    <button id="button-list">Create item</button>
+
+    <ul id="container-list">
+        <!-- we will dynamically add list elements-->
+    </ul>
 
 </body>
 </html>
