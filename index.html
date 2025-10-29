@@ -4,48 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <!-- load the script file-->
+    <script src="script.js" defer></script>
+
 </head>
 <body>
 
-    <div id="container">
+<!-- Give context to an input (title for the text box)-->
+ <div>
+<label
+    for="color-input"
+    >Give me a color please:</label>
 
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+<!-- input is an html tag so that user can type some text (text box)-->
+    <input
+    type="text"
+    size="10"
+    id="color-input"
+    >
+
+    <button id="button-color">Get the color</button>
+
+    <!-- change the temperature value-->
+     
 
     </div>
+
    
-    
-<h1>Hello world!</h1>
-<h2>This is a second level title</h2>
-<h2>This is a second level title</h2>
-<h2>This is a second level title</h2>
+<div>
+ <p>My temperature is<span id="temperature-display">20</span> °C.</p>
+    <button id="button-temperature">Set current temperature</button>
 
-<h3>This is a third level title</h3>
-<h4>fourth level</h4>
-<h5>fifth level</h5>
-
-<p>This is a paragraph of text to demonstrate HTML structure.</p>
-
-<ol>
-    <li>blabla</li>
-    <li id="thisParticularLi">bloblo</li>
-    <li>blibli</li>
-</ol>
-
-<a href="https://www.propain-bikes.com/fr/dechainement-de-taureaux-rouges-2024/"
-    target="_blank"
->
-    Visit the ex website
-</a>
-
-
-
-<img 
-    src="https://media-eu.propain-bikes.com/wp-content/uploads/2024/10/09114524/Rampage-Tuesday-7159.jpg"
-    alt="this is an image of a bike"
->
+</div>
 
 </body>
 </html>
